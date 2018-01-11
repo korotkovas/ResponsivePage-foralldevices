@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f2f2f4;
+}
+
+.container {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+header {
+	text-align: center;
+}
+
+.menu img {
+	text-align: center;
+}
+
+.menu ul {
+	padding-left: 0;
+	list-style: none;
+	background-color: #31a894;
+}
+
+.menu li {
+	display: block;
+}
+
+.menu a {
+	display: block;
+	padding: 35px;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+article img {
+	max-width: 100%;
+}
+
+div.text {
+	background-color: #31a894;
+	padding-left: 7px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 10px;
+}
+article {
+	padding-right: 20px;
+}
+
+article p {
+	font-size: 10px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+aside {
+	width: 100%;
+	padding: 20px;
+	display: none;
+	background-color: #b7dcb1;
+}
+
+aside p {
+	font-size: 10px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (min-width: 600px) {
+	.menu li {
+		display: inline-block;
+	}
+}
+@media screen and (min-width: 600px) {
+	aside {
+		display: block;
+	}
+}
+
+@media screen and (min-width: 900px) {
+
+	aside {
+		display: block;
+		float: right;
+		width: 25%
+	}
+	article {
+		width: 75%;
+		float: left;
+	}
+}
+
